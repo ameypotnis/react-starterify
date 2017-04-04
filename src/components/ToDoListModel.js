@@ -1,4 +1,3 @@
-import React from 'react';
 import ToDoModel from './ToDoModel';
 
 export default class ToDoListModel {
