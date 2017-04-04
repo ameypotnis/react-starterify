@@ -8,7 +8,7 @@ const ToDo = ({object}) => (
     <section id="description">
       {object.description}
     </section>
-    <div><button onClick={() => object.isCompleted = true}>Done</button></div>
+    <div><button onClick={() => object.toggleTodo()}>Toggle</button></div>
   </div>
 );
 

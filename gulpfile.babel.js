@@ -115,8 +115,7 @@ gulp.task('images', () => {
 
 gulp.task('lint', () => {
   gulp.src(paths.srcLint)
-  .pipe(eslint())
-  .pipe(eslint.format());
+  .pipe(eslint());
 });
 
 gulp.task('watchTask', () => {
